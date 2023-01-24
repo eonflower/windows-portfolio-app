@@ -9,7 +9,7 @@ export default function NavWindow() {
     return (
         <div className="pop-up-window">
             <div className="window-toolbar">
-                <div className="window-title">My Portfolio</div>
+                <div className="window-title">my portfolio</div>
                 <div className="toolbar-buttons">
                     <div className="toolbar-button min"></div>
                     <div className="toolbar-button max"></div>
