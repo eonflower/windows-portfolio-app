@@ -11,7 +11,7 @@ const data = [
     project: "dice roller",
     img: dice,
     description: "simple app that allows you to roll five dice, with the ability to save rolls and also reset the dice",
-    tech: "HTML, CSS, Javascript, React",
+    tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://they-see-me-rollin.surge.sh",
     github: "https://github.com/eonflower/dice-roller"
 }, {
@@ -35,7 +35,7 @@ const data = [
     project: "trail log",
     img: trail,
     description: "simple react blog post app showcasing my photos from trail",
-    tech: "HTML, CSS, Javascript, React",
+    tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://trail-tales.surge.sh",
     github: "https://github.com/eonflower/trail-log-app"
 }, {

@@ -1,15 +1,38 @@
-import React from "react"
-import { Routes, Route} from 'react-router-dom'
+import React, {useState, useEffect} from "react"
+import {Routes, Route, Link, useLocation} from 'react-router-dom'
 import Home from '../pages/Home'
 import About from '../pages/About'
 import Projects from '../pages/Projects'
+import Contact from "../pages/Contact"
 
 
 export default function NavWindow() {
+    const [title, setTitle] = useState("welcome.exe")
+    const location = useLocation()
+
+    useEffect(() => {
+        switch (location.pathname) {
+         case "/":
+           setTitle("welcome.exe");
+           break;
+         case "/about":
+           setTitle("about-me.exe");
+           break;
+         case "/contact":
+           setTitle("contact.exe");
+           break;
+           case "/projects":
+            setTitle("my-projects.exe");
+            break;
+         default:
+           setTitle("welcome.exe");
+           break;
+       }
+     }, [location, setTitle]);
     return (
         <div className="pop-up-window">
             <div className="window-toolbar">
-                <div className="window-title">my portfolio</div>
+                <div className="window-title">{title}</div>
                 <div className="toolbar-buttons">
                     <div className="toolbar-button min"></div>
                     <div className="toolbar-button max"></div>
@@ -29,12 +52,14 @@ export default function NavWindow() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<Contact />} />
             </Routes>
             </div>
             <div className="window-pages">
-                <a href="/projects" className="projects window-action">projects</a>
-                <a href="/about" className="about window-action">about</a>
-                <a href="/" className="home window-action">home</a>
+                <Link to="/projects" className="projects window-action">projects</Link>
+                <Link to="/contact" className="projects window-action">contact</Link>
+                <Link to="/about" className="about window-action">about</Link>
+                <Link to="/" className="home window-action">home</Link>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
             <span>
             <img className="project-img" src={props.img} alt="project screenshot" />
             </span>
-            <span>
+            <span className="project-text">
                 <h2 className="project-title">{props.project}</h2>
                 <p>{props.description}</p>
                 <p>utilized: {props.tech}</p>
