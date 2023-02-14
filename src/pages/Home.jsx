@@ -6,15 +6,14 @@ import { faCode, faHiking, faMountainSun, faPalette, faSeedling } from "@fortawe
 export default function Home() {
     return (
     <div className="home-wrapper">
-       <img className="pfp" src={goblin} alt="photo of me" />
-       <span className="home-welcome">
+        <img className="pfp" src={goblin} alt="photo of me" />
+        <span className="home-welcome">
         <h2>hey there, i'm aloe <FontAwesomeIcon icon={faSeedling} /></h2>
         <h3>(they/them)</h3>
         <h4>web developer • artist • climber • backpacker</h4>
         <h4>welcome to my page!</h4>
         <h2 className="home-icons"><FontAwesomeIcon className="icon" icon={faCode} /> <FontAwesomeIcon className="icon" icon={faPalette} /> <FontAwesomeIcon className="icon" icon={faMountainSun} /> <FontAwesomeIcon className="icon" icon={faHiking} /></h2>
-      
-       </span>
+        </span>
     </div>
     )
 }

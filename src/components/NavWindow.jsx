@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import {Routes, Route, Link, useLocation} from 'react-router-dom'
+import Draggable from "react-draggable"
 import Home from '../pages/Home'
 import About from '../pages/About'
 import Projects from '../pages/Projects'
@@ -30,7 +31,8 @@ export default function NavWindow() {
        }
      }, [location, setTitle]);
     return (
-        <div className="pop-up-window">
+        <Draggable>
+            <div className="pop-up-window">
             <div className="window-toolbar">
                 <div className="window-title">{title}</div>
                 <div className="toolbar-buttons">
@@ -62,5 +64,6 @@ export default function NavWindow() {
                 <Link to="/" className="home window-action">home</Link>
             </div>
         </div>
+        </Draggable>
     )
 }

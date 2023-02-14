@@ -238,7 +238,7 @@ ul {
   margin: 0;
 }
 
-li {
+.welcome {
   cursor: pointer;
   list-style: none;
   display: block;
@@ -247,7 +247,7 @@ li {
 	text-decoration: none;
 }
 
-li::first-letter {
+.welcome::first-letter {
   text-decoration: underline;
 }
 
@@ -262,9 +262,9 @@ li::first-letter {
 }
 
 @media screen and (min-width: 1201px){.window-content {height: 430px;}}
-@media screen and (max-width: 1200px){.window-content {height: 375px;}}
-@media screen and (max-width: 900px){.window-content {height: 350px;}}
-@media screen and (max-width: 730px){.window-content {height: 270px;}}
+@media screen and (max-width: 1200px){.window-content {height: 400px;}}
+@media screen and (max-width: 900px){.window-content {height: 370px;}}
+@media screen and (max-width: 730px){.window-content {height: 350px;}}
 @media screen and (max-width: 540px){.window-content {height: 400px;}}
 
 
@@ -391,8 +391,55 @@ a:active { text-decoration: none; }
   margin-top: 2rem;
 }
 
-.about-text {
+.about-text, .tech {
   margin: 2rem;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-tech {
+  padding: .3rem;
+  border: 2px solid #7c7c7c;
+  border-top-color: #fff;
+  border-left-color: #fff;
+
+  transition: all ease .1s;
+}
+
+.about-tech:hover {
+  background-color: #efefef;
+}
+
+.about-tech:active {
+  border: 2px solid #fff;
+  border-top-color: #7c7c7c;
+  border-left-color: #7c7c7c;
+}
+
+.special {
+  text-align: center;
+}
+
+.hobbies {
+  margin: auto;
+  max-width: 800px;;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0 3rem;
+}
+
+.hobby-text {
+  width: 180px;
+  text-align: center;
+  list-style: none;
 }
 
 .card-container { 
