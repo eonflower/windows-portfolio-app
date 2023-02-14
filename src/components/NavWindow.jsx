@@ -12,6 +12,7 @@ export default function NavWindow() {
     const location = useLocation()
     const [draggable, setDraggable] = useState(true)
 
+
     useEffect(() => {
         switch (location.pathname) {
             case "/":

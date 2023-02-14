@@ -10,8 +10,8 @@ export default function Home() {
         <span className="home-welcome">
         <h2>hey there, i'm aloe <FontAwesomeIcon icon={faSeedling} /></h2>
         <h3>(they/them)</h3>
-        <h4>web developer • artist • climber • backpacker</h4>
-        <h4>welcome to my page!</h4>
+        <h4>full stack web developer</h4>
+        <h4>artist • climber • backpacker</h4>
         <h2 className="home-icons"><FontAwesomeIcon className="icon" icon={faCode} /> <FontAwesomeIcon className="icon" icon={faPalette} /> <FontAwesomeIcon className="icon" icon={faMountainSun} /> <FontAwesomeIcon className="icon" icon={faHiking} /></h2>
         </span>
     </div>
