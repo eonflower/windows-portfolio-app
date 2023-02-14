@@ -10,28 +10,29 @@ import Contact from "../pages/Contact"
 export default function NavWindow() {
     const [title, setTitle] = useState("welcome.exe")
     const location = useLocation()
+    const [draggable, setDraggable] = useState(true)
 
     useEffect(() => {
         switch (location.pathname) {
-         case "/":
-           setTitle("welcome.exe");
-           break;
-         case "/about":
-           setTitle("about-me.exe");
-           break;
-         case "/contact":
-           setTitle("contact.exe");
-           break;
-           case "/projects":
+            case "/":
+            setTitle("welcome.exe");
+            break;
+            case "/about":
+            setTitle("about-me.exe");
+            break;
+            case "/contact":
+            setTitle("contact.exe");
+            break;
+            case "/projects":
             setTitle("my-projects.exe");
             break;
-         default:
-           setTitle("welcome.exe");
-           break;
-       }
-     }, [location, setTitle]);
+            default:
+            setTitle("welcome.exe");
+            break;
+        }
+    }, [location, setTitle]);
     return (
-        <Draggable>
+        // <Draggable>
             <div className="pop-up-window">
             <div className="window-toolbar">
                 <div className="window-title">{title}</div>
@@ -64,6 +65,6 @@ export default function NavWindow() {
                 <Link to="/" className="home window-action">home</Link>
             </div>
         </div>
-        </Draggable>
+        // </Draggable>
     )
 }
