@@ -375,8 +375,8 @@ a:active { text-decoration: none; }
   .home-welcome > h3 {font-size: .7rem;}
   .home-welcome > h4 {font-size: .6rem;}
   .label {font-size: 1.1rem;}
-  .about-title {font-size: 1rem;}
-  .about-text {font-size: .8rem;}
+  .about-title {font-size: .8rem;}
+  .about-text {font-size: .7rem;}
 }
 
 @media screen and (max-width: 540px){

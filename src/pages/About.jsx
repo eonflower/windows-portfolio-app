@@ -10,7 +10,7 @@ export default function About() {
         <h2 className="about-title"><FontAwesomeIcon icon={faPagelines} flip="horizontal" /> a little about me <FontAwesomeIcon icon={faPagelines} /></h2>
         <p className="about-text">With a knack for problem-solving and the drive for adventure, I find myself deep-diving into problems and thriving with creative solutions. As a web developer, I bring the spark of an artist and the eye for details, consistently striving towards the most optimized user-experience. I believe in compassion for all, and love to challenge the status quo to continually cultivate more accessible and inclusive spaces for people of all diversities.</p>
         <br />
-        <h2 className="about-title"><FontAwesomeIcon icon={faCode} /> technologies I work with lately <FontAwesomeIcon icon={faCode} /></h2>
+        <h2 className="about-title tech-title"><FontAwesomeIcon icon={faCode} /> technologies I work with lately <FontAwesomeIcon icon={faCode} /></h2>
         <span className="tech">
         <a href="https://www.w3schools.com/js/" className="about-tech">JavaScript</a>
         <a href="https://www.npmjs.com/package/react" className="about-tech">React</a>
