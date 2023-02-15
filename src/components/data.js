@@ -11,8 +11,8 @@ const data = [
         id: 1,
         project: "honey hits",
         img: honey,
-        description: "react built app that allows you to login to your Spotify, then has pages to show you your top favourite artists, songs, and most recently liked tracks",
-        tech: "HTML, JSX, CSS, Javascript, Axios, React, Font Awesome, Spotify Web API, Lodash, Bootstrap",
+        description: "still being developed/worked on, deployment not fully active for testing; react built app that uses OAuth2.0 flow to access Spotify, and has pages to show different user top favourites",
+        tech: "JSX, CSS, Javascript, Axios, React, Font Awesome, Spotify Web API, Lodash, Bootstrap",
         deploy: "https://honey-hits.netlify.app",
         github: "https://github.com/eonflower/honey-hits"
 },
@@ -20,8 +20,8 @@ const data = [
         id: 2,
         project: "trash cats",
         img: trash,
-        description: "app uses react forms to generate editable cards of cats. uses GET/PUT/POST/DELETE requests, but commented out for deployment. app also uses context to change theme",
-        tech: "HTML, CSS, Javascript, React, Bootstrap, Axios, Context",
+        description: "app uses react forms to generate editable cards of cats. uses CRUD operations, but commented out for deployment. app also uses context to change theme",
+        tech: "JSX, CSS, Javascript, React, Bootstrap, Axios, Context",
         deploy: "https://trash-cats.surge.sh",
         github: "https://github.com/eonflower/trash-cats"
 },
