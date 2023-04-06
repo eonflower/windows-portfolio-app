@@ -518,7 +518,7 @@ a:active { text-decoration: none; }
 
 @media screen and (min-width: 1501px){.project-img, .video {width: 620px; height: 600px;} .project-card {gap: 5rem;} .project-title {font-size: 2.8rem;} .project-text {font-size: 1.3rem;} .contact-title {padding-top: 5%;}}
 @media screen and (max-width: 1500px){.project-img, .video {width: 560px; height: 540px;} .project-card {gap: 2.5rem;}.project-title {font-size: 2.2rem;} .project-text {font-size: 1rem;} .contact-title {padding-top: 5%;}}
-@media screen and (max-width: 1200px){.project-img, .video {width: 470px; height: 450px;} .project-card {gap: 2rem;} .project-title {font-size: 2.1rem; } .project-text {font-size: .9rem;} .contact-title {padding-top: 5%;}}
+@media screen and (max-width: 1200px){.project-img, .video {width: 470px; height: 450px;} .project-card {gap: 1.5rem;} .project-title {font-size: 1.5rem; } .project-text {font-size: .8rem;} .contact-title {padding-top: 5%;}}
 @media screen and (max-width: 950px){.project-img, .video {width: 520px; height: 500px;} .project-card {flex-wrap: wrap; justify-content: center; padding: .2rem; padding-top: 1rem; margin: auto;} .project-text {font-size: 1.1rem;} .contact-title {padding-top: 15%;}}
 @media screen and (max-width: 800px){.project-img, .video {width: 400px; height: 380px;} .contact-title {padding-top: 15%;}}
 @media screen and (max-width: 650px){.project-img, .video {width: 320px; height: 300px;}.contact-title {padding-top: 15%;}}

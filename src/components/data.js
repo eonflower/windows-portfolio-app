@@ -5,6 +5,7 @@ import trail from "../img/trail.png"
 import portfolio from "../img/portfolio.png"
 import zen from "../img/zen.png"
 import honey from "../img/honey-hits-vid.mp4"
+import devTrip from "../img/dev-trip.mp4"
 import trash from "../img/trash-cats.png"
 
 const data = [
@@ -60,6 +61,14 @@ const data = [
     github: "https://github.com/eonflower/trail-log-app"
 }, {
     id: 7,
+    project: "dev trip",
+    img: devTrip,
+    description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
+    tech: "HTML, CSS, JSX, React, Font Awesome, Git, Axios, Express, Mongoose, MongoDB, Postman",
+    deploy: "",
+    github: "https://github.com/Mattrob10/Travel-Gear"
+}, {
+    id: 8,
     project: "my portfolio",
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
