@@ -368,8 +368,8 @@ a:active { text-decoration: none; }
   .home-welcome > h3 {font-size: 1.3rem;}
   .home-welcome > h4 {font-size: 1.5rem;}
   .label {font-size: 1.6rem;}
-  .about-title {font-size: 1.5rem;}
-  .about-text, .hobby-text {font-size: 1.2rem;}
+  .about-title {font-size: 2rem; padding-top: 1rem;}
+  .about-text,.about-tech, .hobby-text {font-size: 1.2rem;}
   .window-content {height: 69vh;}
 }
 
@@ -378,8 +378,8 @@ a:active { text-decoration: none; }
   .home-welcome > h3 {font-size: 1.1rem;}
   .home-welcome > h4 {font-size: 1.3rem;}
   .label {font-size: 1.5rem;}
-  .about-title {font-size: 1.3rem;}
-  .about-text, .hobby-text {font-size: 1rem;}
+  .about-title {font-size: 1.7rem; padding-top: 1.5rem;}
+  .about-text, .about-tech, .hobby-text {font-size: 1rem;}
 }
 
 @media screen and (max-width: 950px){
@@ -392,7 +392,7 @@ a:active { text-decoration: none; }
   .home-welcome > h4 {text-align: center;}
   .window-content {height: 72vh;}
   .label {font-size: 1.3rem;}
-  .about-text, .hobby-text {font-size: .9rem;}
+  .about-text, .about-tech, .hobby-text {font-size: .9rem;}
 }
 
 
@@ -402,8 +402,8 @@ a:active { text-decoration: none; }
   .home-welcome > h4 {font-size: .9rem;}
   .home-wrapper {gap: 0;}
   .label {font-size: 1.1rem;}
-  .about-title {font-size: .8rem;}
-  .about-text, .hobby-text {font-size: .7rem;}
+  .about-title {font-size: 1.3rem;}
+  .about-text, .about-tech, .hobby-text {font-size: .7rem;}
 }
 
 @media screen and (max-width: 650px){
@@ -413,7 +413,7 @@ a:active { text-decoration: none; }
   .home-wrapper {gap: 0;}
   .label {font-size: 1.1rem;}
   .about-title {font-size: .8rem;}
-  .about-text, .hobby-text {font-size: .7rem;}
+  .about-text, .about-tech, .hobby-text {font-size: .7rem;}
 }
 
 @media screen and (max-width: 605px){
@@ -434,7 +434,7 @@ a:active { text-decoration: none; }
 
 .about-text {
   margin: auto;
-  margin: 2rem auto 4rem;
+  margin: 2rem auto 3rem;
   width: 85%;
 }
 

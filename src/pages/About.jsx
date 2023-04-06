@@ -32,59 +32,59 @@ export default function About() {
         <FontAwesomeIcon icon={faCode} />
       </h2>
       <span className='tech'>
-        <a href='https://www.w3schools.com/js/' className='about-tech'>
+        <a target="_blank" href='https://www.w3schools.com/js/' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faJs} />
         JavaScript 
         </a>
-        <a href='https://www.npmjs.com/package/react' className='about-tech'>
+        <a target="_blank" href='https://www.npmjs.com/package/react' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faReact} />
         Reactjs
         </a>
-        <a href='https://www.w3schools.com/html/' className='about-tech'>
+        <a target="_blank" href='https://www.w3schools.com/html/' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faHtml5} />
         HTML 
         </a>
-        <a href='https://www.w3schools.com/css/' className='about-tech'>
+        <a target="_blank" href='https://www.w3schools.com/css/' className='about-tech'>
         <i className="devicon-css3-plain tech-icon"></i>
         CSS3
         </a>
-        <a href='https://nodejs.org' className='about-tech'>
+        <a target="_blank" href='https://nodejs.org' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faNodeJs} />
         Nodejs 
         </a>
-        <a href='https://www.npmjs.com/' className='about-tech'>
+        <a target="_blank" href='https://www.npmjs.com/' className='about-tech'>
         <i className="devicon-npm-original-wordmark tech-icon"></i>
         npm
         </a>
-        <a href='https://www.npmjs.com/package/axios' className='about-tech'>
+        <a target="_blank" href='https://www.npmjs.com/package/axios' className='about-tech'>
         <SiAxios className="tech-icon" />
         Axios 
         </a>
-        <a href='https://git-scm.com/' className='about-tech'>
+        <a target="_blank" href='https://git-scm.com/' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faGitAlt} />
         Git
         </a>
-        <a href='https://github.com/' className='about-tech'>
+        <a target="_blank" href='https://github.com/' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faGithub} />
         Github
         </a>
-        <a href='https://www.npmjs.com/package/react-bootstrap' className='about-tech'>
+        <a target="_blank" href='https://www.npmjs.com/package/react-bootstrap' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faBootstrap} />
         Bootstrap 
         </a>
-        <a href='https://www.mongodb.com/try' className='about-tech'>
+        <a target="_blank" href='https://www.mongodb.com/try' className='about-tech'>
         <i className="devicon-mongodb-plain tech-icon"></i>
         MongoDB
         </a>
-        <a href='https://www.npmjs.com/package/express' className='about-tech'>
+        <a target="_blank" href='https://www.npmjs.com/package/express' className='about-tech'>
         <i className="devicon-express-original tech-icon"></i>
         Express
         </a>
-        <a href='https://www.json.org/json-en.html' className='about-tech'>
+        <a target="_blank" href='https://www.json.org/json-en.html' className='about-tech'>
         <BsFiletypeJson className="tech-icon" />
         JSON
         </a>
-        <a href='https://vitejs.dev/' className='about-tech'>
+        <a target="_blank" href='https://vitejs.dev/' className='about-tech'>
         <TbBrandVite className="tech-icon" />
         Vite
         </a>

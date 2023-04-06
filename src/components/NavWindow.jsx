@@ -46,8 +46,8 @@ export default function NavWindow() {
             <div className="window-container">
                 <div className="window-tabs">
                     <ul>
-                    <li className="link-tab welcome"><a href="https://www.github.com/eonflower">Github</a></li>
-                    <li className="link-tab welcome"><a href="https://www.linkedin.com/in/aloenelson/">LinkedIn</a></li>
+                    <li className="link-tab welcome"><a target="_blank" href="https://www.github.com/eonflower">Github</a></li>
+                    <li className="link-tab welcome"><a target="_blank" href="https://www.linkedin.com/in/aloenelson/">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
