@@ -17,6 +17,7 @@ export default function Footer() {
                 <button className="footer-icon folder"></button>
             </div>
             <hr />
+            <button className="credit">created and designed by aloe</button>
             <div className="footer-right">
                 <div className="time">
                     <Clock />

@@ -55,7 +55,7 @@ const data = [
     id: 6,
     project: "trail log",
     img: trail,
-    description: "A React blog app showcasing my personal photos from hiking. With a simple iterface, this mock app is the base project for a further, more immersive and personalized experience for nature enthusiasts and bloggers alike.",
+    description: "A React blog app showcasing my personal photos from hiking. With a simple interface, this mock app is the base project for a further, more immersive and personalized experience for nature enthusiasts and bloggers alike.",
     tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://trail-tales.surge.sh",
     github: "https://github.com/eonflower/trail-log-app"
