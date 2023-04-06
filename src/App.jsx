@@ -6,7 +6,6 @@ import NavWindow from './components/NavWindow'
 
 function App() {
 
-
   return (
     <div className="app">
       <NavWindow />

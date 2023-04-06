@@ -2,8 +2,9 @@ import badge from "../img/badge.png"
 import dice from "../img/dice.png"
 import gradient from "../img/gradient.png"
 import trail from "../img/trail.png"
+import portfolio from "../img/portfolio.png"
 import zen from "../img/zen.png"
-import honey from "../img/honey.png"
+import honey from "../img/honey-hits-vid.mp4"
 import trash from "../img/trash-cats.png"
 
 const data = [
@@ -11,17 +12,17 @@ const data = [
         id: 1,
         project: "honey hits",
         img: honey,
-        description: "still being developed/worked on, deployment not fully active for testing; react built app that uses OAuth2.0 flow to access Spotify, and has pages to show different user top favourites",
-        tech: "JSX, CSS, Javascript, Axios, React, Font Awesome, Spotify Web API, Lodash, Bootstrap",
-        deploy: "https://honey-hits.netlify.app",
+        description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
+        tech: "JSX, CSS, Axios, React, Font Awesome, Spotify Web API, Lodash, Bootstrap",
+        deploy: "",
         github: "https://github.com/eonflower/honey-hits"
 },
     {
         id: 2,
         project: "trash cats",
         img: trash,
-        description: "app uses react forms to generate editable cards of cats. uses CRUD operations, but commented out for deployment. app also uses context to change theme",
-        tech: "JSX, CSS, Javascript, React, Bootstrap, Axios, Context",
+        description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
+        tech: "JSX, CSS, Javascript, React, Bootstrap, Axios, useContext",
         deploy: "https://trash-cats.surge.sh",
         github: "https://github.com/eonflower/trash-cats"
 },
@@ -29,7 +30,7 @@ const data = [
     id: 3,
     project: "dice roller",
     img: dice,
-    description: "simple app that allows you to roll five dice, with the ability to save rolls and also reset the dice",
+    description: "A fun and interactive React app that lets users roll five dice with just a click of a button. With the ability to save rolls and reset the dice, the app offers a simple yet clean experience for dice rolling.",
     tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://they-see-me-rollin.surge.sh",
     github: "https://github.com/eonflower/dice-roller"
@@ -37,7 +38,7 @@ const data = [
     id: 4,
     project: "css gradient",
     img: gradient,
-    description: "css gradient code generator where you can input two colors",
+    description: "A CSS gradient code generator that lets you input two colors and instantly receive the corresponding CSS code for your projects.",
     tech: "HTML, CSS, Javascript, React",
     deploy: "https://css-gradient.surge.sh",
     github: "https://github.com/eonflower/css-gradient"
@@ -45,7 +46,7 @@ const data = [
     id: 5,
     project: "badge creator",
     img: badge,
-    description: "react form that outputs a creative badge utilizing the user-input",
+    description: "A React-based form that lets you create personalized badges using your own input.",
     tech: "HTML, CSS, Javascript, React",
     deploy: "https://badge-creator.surge.sh",
     github: "https://github.com/eonflower/badge-creator"
@@ -53,19 +54,29 @@ const data = [
     id: 6,
     project: "trail log",
     img: trail,
-    description: "simple react blog post app showcasing my photos from trail",
+    description: "A React blog app showcasing my personal photos from hiking. With a simple iterface, this mock app is the base project for a further, more immersive and personalized experience for nature enthusiasts and bloggers alike.",
     tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://trail-tales.surge.sh",
     github: "https://github.com/eonflower/trail-log-app"
 }, {
     id: 7,
-    project: "css zen garden",
-    img: zen,
-    description: "this was a project where I recreated a website using only CSS and HTML, and was not allowed to inspect the original code, except for photos",
-    tech: "HTML, CSS",
-    deploy: "https://css-zen.surge.sh",
-    github: "https://github.com/eonflower/Lvl-2/tree/main/zen-garden",
-    original: "http://www.csszengarden.com/"
-}]
+    project: "my portfolio",
+    img: portfolio,
+    description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
+    tech: "HTML, CSS, JSX, React, Font Awesome, Github Pages",
+    deploy: "",
+    github: "https://github.com/eonflower/windows-portfolio-app"
+}, 
+// {
+//     id: 7,
+//     project: "css zen garden",
+//     img: zen,
+//     description: "this was a project where I recreated a website using only CSS and HTML, and was not allowed to inspect the original code, except for photos",
+//     tech: "HTML, CSS",
+//     deploy: "https://css-zen.surge.sh",
+//     github: "https://github.com/eonflower/Lvl-2/tree/main/zen-garden",
+//     original: "http://www.csszengarden.com/"
+// }
+]
 
 export default data;

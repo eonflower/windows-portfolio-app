@@ -1,13 +1,20 @@
 import React from "react";
+import honey from "../img/honey-hits-vid.mp4"
 
 export default function ProjectCard(props) {
 // const original = !props.original ? "" : `original`
 
     return (
         <div className="card-container">
-             <div className="project-card">
+            <div className="project-card">
             <span>
-            <img className="project-img" src={props.img} alt="project screenshot" />
+            {/* <img className="project-img" src={props.img} alt="project screenshot" /> */}
+            {props.img === honey ?
+            <div className="video-container">
+                <video className="video" src={honey} controls autoPlay />
+            </div>
+            :
+            <div className="project-img" style={{backgroundImage: `url(${props.img})`}} />}
             </span>
             <span className="project-text">
                 <h2 className="project-title">{props.project}</h2>
@@ -15,14 +22,13 @@ export default function ProjectCard(props) {
                 <p>utilized: {props.tech}</p>
                 <span className="project-links">
                 <a className="code-link" href={props.github}>view code</a>
-                <a className="deploy-link" href={props.deploy}>view live</a>
-                <a className="original-link" href={props.original}>{!props.original ? "" : "original"}</a>
+                <a className="deploy-link" href={props.deploy}>{!props.deploy ? "" : "view live"}</a>
+                {/* <a className="original-link" href={props.original}>{!props.original ? "" : "original"}</a> */}
             </span>
             </span>
     
         </div>
         
         </div>
-       
     )
 }
