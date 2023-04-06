@@ -35,15 +35,17 @@ const data = [
     tech: "HTML, CSS, Javascript, React, Font Awesome",
     deploy: "https://they-see-me-rollin.surge.sh",
     github: "https://github.com/eonflower/dice-roller"
-}, {
-    id: 4,
-    project: "css gradient",
-    img: gradient,
-    description: "A CSS gradient code generator that lets you input two colors and instantly receive the corresponding CSS code for your projects.",
-    tech: "HTML, CSS, Javascript, React",
-    deploy: "https://css-gradient.surge.sh",
-    github: "https://github.com/eonflower/css-gradient"
-}, {
+}, 
+// {
+//     id: 4,
+//     project: "css gradient",
+//     img: gradient,
+//     description: "A CSS gradient code generator that lets you input two colors and instantly receive the corresponding CSS code for your projects.",
+//     tech: "HTML, CSS, Javascript, React",
+//     deploy: "https://css-gradient.surge.sh",
+//     github: "https://github.com/eonflower/css-gradient"
+// }, 
+{
     id: 5,
     project: "badge creator",
     img: badge,
