@@ -24,7 +24,7 @@ const data = [
         img: trash,
         description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
         tech: "JSX, CSS, Javascript, React, Bootstrap, Axios, useContext",
-        deploy: "https://trash-cats.surge.sh",
+        deploy: "https://trash-cats.netlify.app",
         github: "https://github.com/eonflower/trash-cats"
 },
     {
