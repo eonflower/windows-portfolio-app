@@ -3,7 +3,7 @@ import dice from "../img/dice.png"
 import gradient from "../img/gradient.png"
 import trail from "../img/trail.png"
 import portfolio from "../img/portfolio.png"
-import zen from "../img/zen.png"
+import pets from "../img/pet-app.png"
 import honey from "../img/honey-hits-vid.mp4"
 import devTrip from "../img/dev-trip.mp4"
 import trash from "../img/trash-cats.png"
@@ -23,7 +23,7 @@ const data = [
         project: "trash cats",
         img: trash,
         description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
-        tech: "JSX, CSS, Javascript, React, Bootstrap, Axios, useContext",
+        tech: "JSX, CSS, React, Bootstrap, Axios, useContext",
         deploy: "https://trash-cats.netlify.app",
         github: "https://github.com/eonflower/trash-cats"
 },
@@ -36,15 +36,15 @@ const data = [
     deploy: "https://they-see-me-rollin.surge.sh",
     github: "https://github.com/eonflower/dice-roller"
 }, 
-// {
-//     id: 4,
-//     project: "css gradient",
-//     img: gradient,
-//     description: "A CSS gradient code generator that lets you input two colors and instantly receive the corresponding CSS code for your projects.",
-//     tech: "HTML, CSS, Javascript, React",
-//     deploy: "https://css-gradient.surge.sh",
-//     github: "https://github.com/eonflower/css-gradient"
-// }, 
+{
+    id: 4,
+    project: "gentle critter",
+    img: pets,
+    description: "This React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
+    tech: "JSX, CSS, React, Emailjs, Netlify, React-slick",
+    deploy: "https://gentle-critter.netlify.app",
+    github: "https://github.com/eonflower/pet-sitting"
+}, 
 {
     id: 5,
     project: "badge creator",
