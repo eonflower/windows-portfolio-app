@@ -557,7 +557,7 @@ a:active { text-decoration: none; }
 
 .contact-title {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
 }
 
@@ -580,7 +580,8 @@ a:active { text-decoration: none; }
 }
 
 .form-text {
-  width: 252px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .form-button {

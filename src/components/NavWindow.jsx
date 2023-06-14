@@ -48,7 +48,6 @@ export default function NavWindow() {
                     <ul>
                     <li className="link-tab welcome"><a target="_blank" href="https://www.github.com/eonflower">Github</a></li>
                     <li className="link-tab welcome"><a target="_blank" href="https://www.linkedin.com/in/aloenelson/">LinkedIn</a></li>
-                    <li className="link-tab welcome"><a href="https://littlebugbest.com/#/about">Created by Aloe</a></li>
                     </ul>
                 </div>
             </div>

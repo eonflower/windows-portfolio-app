@@ -1,5 +1,6 @@
 import React from 'react';
 import goblin from '../img/goblin.jpg';
+import selfie from "../img/selfie.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCode,
@@ -12,7 +13,7 @@ import {
 export default function Home() {
   return (
     <div className='home-wrapper'>
-      <img className='pfp' src={goblin} alt='photo of me' />
+      <img className='pfp' src={selfie} alt='photo of me' />
       <span className='home-welcome'>
         <h2>
           hey there, i'm aloe <FontAwesomeIcon icon={faSeedling} />

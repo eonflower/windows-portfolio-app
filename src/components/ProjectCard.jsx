@@ -1,6 +1,7 @@
 import React from "react";
 import honey from "../img/honey-hits-vid.mp4"
 import devTrip from "../img/dev-trip.mp4"
+import chum from "../img/green.mp4"
 
 export default function ProjectCard(props) {
 // const original = !props.original ? "" : `original`
@@ -10,7 +11,12 @@ export default function ProjectCard(props) {
             <div className="project-card">
             <span>
             {/* <img className="project-img" src={props.img} alt="project screenshot" /> */}
-            {props.img === honey ?
+            {props.img === chum?
+            <div className="video-container">
+                <video className="video" src={chum} controls />
+            </div>
+            :
+            props.img === honey ?
             <div className="video-container">
                 <video className="video" src={honey} controls />
             </div>
