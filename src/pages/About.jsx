@@ -112,6 +112,8 @@ export default function About() {
         </a> */}
       </span>
 
+      <br/>
+
       <h2 className='about-title'>
         <FontAwesomeIcon icon={faPagelines} flip='horizontal' /> some background <FontAwesomeIcon icon={faPagelines} />
       </h2>
@@ -125,7 +127,6 @@ export default function About() {
       front-end and back-end development tasks proficiently. Additionally, I have dabbled in mobile development using React Native and Expo.
       </p>
       
-      <br />
       <h2 className='about-title'>
         <FontAwesomeIcon icon={faHeart} /> my hobbies{' '}
         <FontAwesomeIcon icon={faHeart} />
