@@ -8,6 +8,7 @@ import honey from "../img/honey-hits-vid.mp4"
 import devTrip from "../img/dev-trip.mp4"
 import trash from "../img/trash-cats.png"
 import chum from "../img/green.mp4"
+import weather from "../img/weather.mp4"
 
 const data = [
 {
@@ -18,18 +19,25 @@ const data = [
     tech: "JSX, CSS, Axios, React, Express, MongoDB, Mongoose, Postman, Render, Nodemon, JWT, Date-fns, Git",
     deploy: "https://trail-chum.onrender.com",
     github: "https://github.com/eonflower/trail-chum"
-}, 
-{
+}, {
     id: 2,
+    project: "weather app",
+    img: weather,
+    description: "Mobile app created with React Native that utilizes Weather API. User location saves asynchronously using AsyncStorage, and the background changes by time of day and weather.",
+    tech: "React Native, React, Expo, Axios, Tailwindcss, Canva, lodash, Date-fns, react-native-async-storage",
+    deploy: "",
+    github: "https://github.com/eonflower/weather-app-rn"
+}, {
+    id: 3,
     project: "honey hits",
     img: honey,
     description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
-    tech: "JSX, CSS, Axios, React, Font Awesome, Spotify Web API, Lodash, Bootstrap",
+    tech: "JSX, CSS, Axios, React, Font Awesome, Spotify Web API, lodash, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
 }, 
 {
-    id: 3,
+    id: 4,
     project: "gentle critter",
     img: pets,
     description: "This React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
@@ -37,7 +45,7 @@ const data = [
     deploy: "https://gentle-critter.netlify.app",
     github: "https://github.com/eonflower/pet-sitting"
 }, {
-    id: 4,
+    id: 5,
     project: "dev trip",
     img: devTrip,
     description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
@@ -79,7 +87,7 @@ const data = [
 //     github: "https://github.com/eonflower/badge-creator"
 // }, 
 {
-    id: 8,
+    id: 6,
     project: "my portfolio",
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",

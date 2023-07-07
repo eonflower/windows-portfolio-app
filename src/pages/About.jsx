@@ -1,23 +1,37 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPagelines, faJs, faReact, faHtml5, faNodeJs, faGitAlt, faGithub, faBootstrap } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faPagelines, faJs, faReact, faHtml5, faNodeJs, faGitAlt, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
-import { TbBrandVite } from "react-icons/tb"
-import { SiAxios } from "react-icons/si"
+import { TbBrandVite, TbBrandReactNative } from "react-icons/tb"
+import { SiAxios, SiTailwindcss } from "react-icons/si"
 import { BsFiletypeJson } from "react-icons/bs"
 
 export default function About() {
   return (
     <div>
       <h2 className='about-title'>
-        <FontAwesomeIcon icon={faPagelines} flip='horizontal' /> a little about me <FontAwesomeIcon icon={faPagelines} />
+        <FontAwesomeIcon icon={faWandMagicSparkles} flip='horizontal' /> a little about me <FontAwesomeIcon icon={faWandMagicSparkles} />
       </h2>
       <p className='about-text'>
-      I'm a problem-solving, adventure-seeking web developer with an eye for detail and a passion for 
+      <p>
+        I'm a digital wizard ~
+      </p>
+      <p>
+        Whether conjuring websites, apps, or art, I do so with a touch of magic! 
+      </p>
+      <p>
+        Cooding or crafting, I thrive on solving puzzles and unleashing my imagination to tackle any challenge that comes my way. 
+        My keen eye for detail brings forth stunning, vibrant creations that are not only visually captivating but are also fun and 
+        accessible to use.
+      </p>
+
+      
+      
+      {/* I'm a problem-solving, adventure-seeking web developer with an eye for detail and a passion for 
       optimizing user experiences. Combining my love for art with technical skills, I strive to create 
       websites that are both beautiful and accessible for people of all backgrounds. I believe in 
-      challenging the status quo and creating inclusive spaces both online and in the outdoors.
+      challenging the status quo and creating inclusive spaces both online and in the outdoors. */}
 
         {/* With a knack for problem-solving and the drive for adventure, I find
         myself deep-diving into problems and thriving with creative solutions.
@@ -52,9 +66,9 @@ export default function About() {
         <FontAwesomeIcon className="tech-icon" icon={faNodeJs} />
         Nodejs 
         </a>
-        <a target="_blank" href='https://www.npmjs.com/' className='about-tech'>
-        <i className="devicon-npm-original-wordmark tech-icon"></i>
-        npm
+        <a target="_blank" href='https://reactnative.dev' className='about-tech'>
+        <TbBrandReactNative className="tech-icon" />
+        React Native
         </a>
         <a target="_blank" href='https://www.npmjs.com/package/axios' className='about-tech'>
         <SiAxios className="tech-icon" />
@@ -64,9 +78,9 @@ export default function About() {
         <FontAwesomeIcon className="tech-icon" icon={faGitAlt} />
         Git
         </a>
-        <a target="_blank" href='https://github.com/' className='about-tech'>
-        <FontAwesomeIcon className="tech-icon" icon={faGithub} />
-        Github
+        <a target="_blank" href='https://www.tailwindcss.com' className='about-tech'>
+        <SiTailwindcss className="tech-icon" />
+        Tailwindcss 
         </a>
         <a target="_blank" href='https://www.npmjs.com/package/react-bootstrap' className='about-tech'>
         <FontAwesomeIcon className="tech-icon" icon={faBootstrap} />
@@ -97,9 +111,20 @@ export default function About() {
         Illustrator
         </a> */}
       </span>
-      <p className='about-text special'>
-      As a frontend developer with backend skills, I specialize in the MERN stack, allowing me to seamlessly navigate both the client and server sides of web development.
+
+      <h2 className='about-title'>
+        <FontAwesomeIcon icon={faPagelines} flip='horizontal' /> some background <FontAwesomeIcon icon={faPagelines} />
+      </h2>
+
+      <p className='about-text'>
+          
+      I am a certified fullstack developer with a proven ability to build functional, well-structured websites that offer 
+      a creative and user-friendly design. My expertise was honed through the successful completion of V School's 
+      mastery-based 1,000+ hour Web Development bootcamp, where I focused on mastering HTML5, CSS3, JavaScript, Node, 
+      React, MongoDB, and API development. With a strong foundation in these technologies, I am equipped to handle both 
+      front-end and back-end development tasks proficiently. Additionally, I have dabbled in mobile development using React Native and Expo.
       </p>
+      
       <br />
       <h2 className='about-title'>
         <FontAwesomeIcon icon={faHeart} /> my hobbies{' '}

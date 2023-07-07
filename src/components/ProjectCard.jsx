@@ -2,6 +2,7 @@ import React from "react";
 import honey from "../img/honey-hits-vid.mp4"
 import devTrip from "../img/dev-trip.mp4"
 import chum from "../img/green.mp4"
+import weather from "../img/weather.mp4"
 
 export default function ProjectCard(props) {
 // const original = !props.original ? "" : `original`
@@ -19,6 +20,11 @@ export default function ProjectCard(props) {
             props.img === honey ?
             <div className="video-container">
                 <video className="video" src={honey} controls />
+            </div>
+            :
+            props.img === weather ?
+            <div className="video-container">
+                <video className="video" src={weather} controls />
             </div>
             :
             props.img === devTrip ?
