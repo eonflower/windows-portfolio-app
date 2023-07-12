@@ -9,6 +9,7 @@ import devTrip from "../img/dev-trip.mp4"
 import trash from "../img/trash-cats.png"
 import chum from "../img/green.mp4"
 import weather from "../img/weather.mp4"
+import sunset from "../img/sunset.mp4"
 
 const data = [
 {
@@ -35,9 +36,17 @@ const data = [
     tech: "JSX, CSS, Axios, React, Font Awesome, Spotify Web API, lodash, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
+}, {
+    id: 4,
+    project: "truth of pine",
+    img: sunset,
+    description: "This project's focal point was to utilizes Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
+    tech: "JSX, CSS, React, Figma, SVGs, Font Awesome",
+    deploy: "https://pining.netlify.app",
+    github: "https://github.com/eonflower/sunset-play"
 }, 
 {
-    id: 4,
+    id: 5,
     project: "gentle critter",
     img: pets,
     description: "This React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
@@ -45,7 +54,7 @@ const data = [
     deploy: "https://gentle-critter.netlify.app",
     github: "https://github.com/eonflower/pet-sitting"
 }, {
-    id: 5,
+    id: 6,
     project: "dev trip",
     img: devTrip,
     description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
@@ -53,7 +62,7 @@ const data = [
     deploy: "",
     github: "https://github.com/Mattrob10/Travel-Gear"
 }, {
-    id: 5,
+    id: 7,
     project: "trash cats",
     img: trash,
     description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
@@ -87,7 +96,7 @@ const data = [
 //     github: "https://github.com/eonflower/badge-creator"
 // }, 
 {
-    id: 6,
+    id: 8,
     project: "my portfolio",
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
