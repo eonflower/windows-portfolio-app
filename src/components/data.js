@@ -40,7 +40,7 @@ const data = [
     id: 4,
     project: "truth of pine",
     img: sunset,
-    description: "This project's focal point was to utilizes Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
+    description: "This project's focal point was to utilize Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
     tech: "JSX, CSS, React, Figma, SVGs, Font Awesome",
     deploy: "https://pining.netlify.app",
     github: "https://github.com/eonflower/sunset-play"
