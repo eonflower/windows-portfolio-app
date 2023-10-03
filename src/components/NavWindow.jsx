@@ -1,16 +1,18 @@
-import React, {useState, useEffect} from "react"
+import React, {useState, useEffect, useContext} from "react"
 import {Routes, Route, Link, useLocation} from 'react-router-dom'
 import Draggable from "react-draggable"
 import Home from '../pages/Home'
 import About from '../pages/About'
 import Projects from '../pages/Projects'
 import Contact from "../pages/Contact"
+import {UserContext} from "../context/UserProvider"
 
 
 export default function NavWindow() {
-    const [title, setTitle] = useState("welcome.exe")
-    const location = useLocation()
-    const [draggable, setDraggable] = useState(true)
+    const { toggle, minimize, maximize } = useContext(UserContext);
+    const [title, setTitle] = useState("welcome.exe");
+    const location = useLocation();
+
 
 
     useEffect(() => {
@@ -32,26 +34,31 @@ export default function NavWindow() {
             break;
         }
     }, [location, setTitle]);
+
     return (
         // <Draggable>
-            <div className="pop-up-window">
+            <div className={`pop-up-window ${toggle ? 'minimize' : ""}`}>
             <div className="window-toolbar">
                 <div className="window-title">{title}</div>
                 <div className="toolbar-buttons">
-                    <div className="toolbar-button min"></div>
-                    <div className="toolbar-button max"></div>
-                    <div className="toolbar-button close"></div>
+                <div className="toolbar-button close"></div>
+                <button className={`toolbar-button max`}></button>
+                <button className={`toolbar-button min`}></button>
+                {/* <button className={`toolbar-button max`} onClick={() => maximize()}></button>
+                <button className={`toolbar-button min`} onClick={() => minimize()}></button> */}
+                    
+                    
                 </div>
             </div>
-            <div className="window-container">
-                <div className="window-tabs">
+            <div className={`window-container ${toggle ? 'minimize' : ""}`}>
+                <div className={`window-tabs ${toggle ? 'minimize' : ""}`}>
                     <ul>
                     <li className="link-tab welcome"><a target="_blank" href="https://www.github.com/eonflower">Github</a></li>
                     <li className="link-tab welcome"><a target="_blank" href="https://www.linkedin.com/in/aloenelson/">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
-            <div className="window-content">
+            <div className={`window-content ${toggle ? 'minimize' : ""}`}>
             <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />

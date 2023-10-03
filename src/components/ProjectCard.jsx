@@ -43,7 +43,7 @@ export default function ProjectCard(props) {
             <span className="project-text">
                 <h2 className="project-title">{props.project}</h2>
                 <p>{props.description}</p>
-                <p>utilized: {props.tech}</p>
+                <p>tech stack: {props.tech}</p>
                 <span className="project-links">
                 <a className="code-link" href={props.github}>view code</a>
                 <a className="deploy-link" href={props.deploy}>{!props.deploy ? "" : "view live"}</a>

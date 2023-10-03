@@ -3,10 +3,6 @@ import Clock from "./Clock"
 
 export default function Footer() {
     
-
-    setInterval(() => {
-
-    })
     return (
         <div className="footer">
             <button className="start-button">start</button>

@@ -47,7 +47,7 @@ export default function Contact() {
   return (
     <div className='contact-wrapper'>
     <h2 className='contact-title'>
-      Let's build something amazing together! Contact me today to chat about where our future could lead us.
+      Have a project in mind? Wanna collaborate? Just wanna say hi? Let's chat.
       </h2>
     <div className='message-container'>
       <form ref={form} onSubmit={sendEmail}>

@@ -17,7 +17,7 @@ const data = [
     project: "trail chum",
     img: chum,
     description: "Designed for long distance backpackers, this app allows users to create and personalize trails, efficiently manage trail notes and mileage, and conveniently track their starting and ending points. Built with the MERN stack and featuring user authentication, it provides a user-friendly platform for passionate backpacking enthusiasts.",
-    tech: "JSX, CSS, Axios, React, Express, MongoDB, Mongoose, Postman, Render, Nodemon, JWT, Date-fns, Git",
+    tech: "Javascript, CSS, React, Express, MongoDB, JWT, Mongoose, Render, Node",
     deploy: "https://trail-chum.onrender.com",
     github: "https://github.com/eonflower/trail-chum"
 }, {
@@ -25,7 +25,7 @@ const data = [
     project: "weather app",
     img: weather,
     description: "Mobile app created with React Native that utilizes Weather API. User location saves asynchronously using AsyncStorage, and the background changes by time of day and weather.",
-    tech: "React Native, React, Expo, Axios, Tailwindcss, Canva, lodash, Date-fns, react-native-async-storage",
+    tech: "React Native, React, Expo, Tailwindcss, Canva, lodash, Date-fns, react-native-async-storage",
     deploy: "",
     github: "https://github.com/eonflower/weather-app-rn"
 }, {
@@ -33,7 +33,7 @@ const data = [
     project: "honey hits",
     img: honey,
     description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
-    tech: "JSX, CSS, Axios, React, Font Awesome, Spotify Web API, lodash, Bootstrap",
+    tech: "Javascript, CSS,React, Font Awesome, Spotify Web API, lodash, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
 }, {
@@ -41,7 +41,7 @@ const data = [
     project: "truth of pine",
     img: sunset,
     description: "This project's focal point was to utilize Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
-    tech: "JSX, CSS, React, Figma, SVGs, Font Awesome",
+    tech: "Javascript, CSS, React, Figma, SVGs, Font Awesome",
     deploy: "https://pining.netlify.app",
     github: "https://github.com/eonflower/sunset-play"
 }, 
@@ -58,18 +58,19 @@ const data = [
     project: "dev trip",
     img: devTrip,
     description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
-    tech: "HTML, CSS, JSX, React, Font Awesome, Git, Axios, Express, Mongoose, MongoDB, Postman",
+    tech: "CSS, Javascript, React, Font Awesome, Express, Mongoose, MongoDB",
     deploy: "",
     github: "https://github.com/Mattrob10/Travel-Gear"
-}, {
-    id: 7,
-    project: "trash cats",
-    img: trash,
-    description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
-    tech: "JSX, CSS, React, Bootstrap, Axios",
-    deploy: "https://trash-cats.netlify.app",
-    github: "https://github.com/eonflower/trash-cats"
 }, 
+// {
+//     id: 7,
+//     project: "trash cats",
+//     img: trash,
+//     description: "This project uses React forms and a REST API to generate customizable cat cards, with dynamic theming powered by React's Context feature.",
+//     tech: "JSX, CSS, React, Bootstrap, Axios",
+//     deploy: "https://trash-cats.netlify.app",
+//     github: "https://github.com/eonflower/trash-cats"
+// }, 
 // {
 //     id: 5,
 //     project: "dice roller",
@@ -100,7 +101,7 @@ const data = [
     project: "my portfolio",
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
-    tech: "HTML, CSS, JSX, React, Font Awesome, Github Pages",
+    tech: "CSS, Javascript, React, Font Awesome, Github Pages",
     deploy: "",
     github: "https://github.com/eonflower/windows-portfolio-app"
 }, 
