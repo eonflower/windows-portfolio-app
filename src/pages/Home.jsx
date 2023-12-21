@@ -25,7 +25,7 @@ export default function Home() {
         </h2>
         <h3>(they/them)</h3>
         <h4>software developer</h4>
-        <h4>artist • climber • backpacker</h4>
+        <p>artist • climber • backpacker</p>
         <h2 className='home-icons'>
           <FontAwesomeIcon className='icon' icon={faCode} />{' '}
           <FontAwesomeIcon className='icon' icon={faPalette} />{' '}

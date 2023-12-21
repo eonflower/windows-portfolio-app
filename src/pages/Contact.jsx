@@ -29,10 +29,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'v-school-portfolio',
-        'template_vwsqje2',
+        import.meta.env.PUBLIC_KEY,
+        import.meta.env.TEMPLATE_ID,
         form.current,
-        '4mPpzylwN9A6vjNBD'
+        import.meta.env.USER_ID
       )
       .then(
         (result) => {
@@ -46,7 +46,7 @@ export default function Contact() {
 
   return (
     <div className='contact-wrapper'>
-    <h2 className='contact-title'>
+    <h2>
       Have a project in mind? Wanna collaborate? Just wanna say hi? Let's chat.
       </h2>
     <div className='message-container'>

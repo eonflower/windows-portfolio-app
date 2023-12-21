@@ -10,7 +10,7 @@ import {UserContext} from "../context/UserProvider"
 
 export default function NavWindow() {
     const { toggle, minimize, maximize } = useContext(UserContext);
-    const [title, setTitle] = useState("welcome.exe");
+    const [title, setTitle] = useState("welcome.html");
     const location = useLocation();
 
 
@@ -18,19 +18,19 @@ export default function NavWindow() {
     useEffect(() => {
         switch (location.pathname) {
             case "/":
-            setTitle("welcome.exe");
+            setTitle("welcome.html");
             break;
             case "/about":
-            setTitle("about-me.exe");
+            setTitle("about-me.html");
             break;
             case "/contact":
-            setTitle("contact.exe");
+            setTitle("contact.html");
             break;
             case "/projects":
-            setTitle("my-projects.exe");
+            setTitle("my-projects.html");
             break;
             default:
-            setTitle("welcome.exe");
+            setTitle("welcome.html");
             break;
         }
     }, [location, setTitle]);

@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react';
+import { format } from 'date-fns';
+
 function Clock(){
   const [date, setDate] = useState(new Date());
+
+  const formattedDate = format(new Date(date), 'hh:mmbb');
   
   function refreshClock() {
-    setDate(new Date());
+    setDate(date);
   }
   useEffect(() => {
     const timerId = setInterval(refreshClock, 1000);
@@ -13,7 +17,7 @@ function Clock(){
   }, []);
   return (
     <span>
-      {date.toLocaleTimeString()}
+      {formattedDate}
     </span>
   );
 }

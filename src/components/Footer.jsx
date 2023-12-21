@@ -14,6 +14,9 @@ export default function Footer() {
             </div>
             <hr />
             <div className="footer-right">
+                <p>
+                © 2023 all rights reserved
+                </p>
                 <div className="time">
                     <Clock />
                 </div>

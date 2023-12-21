@@ -16,7 +16,7 @@ const data = [
     id: 1,
     project: "trail chum",
     img: chum,
-    description: "Designed for long distance backpackers, this app allows users to create and personalize trails, efficiently manage trail notes and mileage, and conveniently track their starting and ending points. Built with the MERN stack and featuring user authentication, it provides a user-friendly platform for passionate backpacking enthusiasts.",
+    description: "Designed for long distance backpackers, this full-stack app allows users to create and personalize trails, efficiently manage trail notes and mileage, and conveniently track their starting and ending points. Built with the MERN stack and featuring user authentication, it provides a user-friendly platform for passionate backpacking enthusiasts.",
     tech: "Javascript, CSS, React, Express, MongoDB, JWT, Mongoose, Render, Node",
     deploy: "https://trail-chum.onrender.com",
     github: "https://github.com/eonflower/trail-chum"
@@ -33,7 +33,7 @@ const data = [
     project: "honey hits",
     img: honey,
     description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
-    tech: "Javascript, CSS,React, Font Awesome, Spotify Web API, lodash, Bootstrap",
+    tech: "Javascript, CSS, React, Font Awesome, Spotify Web API, lodash, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
 }, {
@@ -49,7 +49,7 @@ const data = [
     id: 5,
     project: "gentle critter",
     img: pets,
-    description: "This React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
+    description: "This static React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
     tech: "JSX, CSS, React, Emailjs, Netlify, React-slick",
     deploy: "https://gentle-critter.netlify.app",
     github: "https://github.com/eonflower/pet-sitting"
@@ -102,19 +102,10 @@ const data = [
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
     tech: "CSS, Javascript, React, Font Awesome, Github Pages",
-    deploy: "",
+    deploy: "https://littlebugbest.com",
     github: "https://github.com/eonflower/windows-portfolio-app"
 }, 
-// {
-//     id: 7,
-//     project: "css zen garden",
-//     img: zen,
-//     description: "this was a project where I recreated a website using only CSS and HTML, and was not allowed to inspect the original code, except for photos",
-//     tech: "HTML, CSS",
-//     deploy: "https://css-zen.surge.sh",
-//     github: "https://github.com/eonflower/Lvl-2/tree/main/zen-garden",
-//     original: "http://www.csszengarden.com/"
-// }
+
 ]
 
 export default data;
