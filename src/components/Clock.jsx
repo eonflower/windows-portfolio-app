@@ -4,7 +4,7 @@ import { format } from 'date-fns';
 function Clock(){
   const [date, setDate] = useState(new Date());
 
-  const formattedDate = format(new Date(date), 'hh:mmbb');
+  const formattedDate = format(new Date(date), 'hh:mmaaa');
   
   function refreshClock() {
     setDate(date);
