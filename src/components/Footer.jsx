@@ -16,7 +16,7 @@ export default function Footer() {
             
             <div className="footer-right">
                 <p>
-                © 2023 
+                © {new Date().getFullYear()}
                 </p>
                 <p className="footer-rights">
                 all rights reserved
