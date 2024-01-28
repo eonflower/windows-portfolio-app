@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import config from '../config';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -29,10 +30,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        `${config.SERVICE_ID}`,
+        `${config.TEMPLATE_ID}`,
         form.current,
-        import.meta.env.VITE_PUBLIC_KEY
+        `${config.PUBLIC_KEY}`
       )
       .then(
         (result) => {
