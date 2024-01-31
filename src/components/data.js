@@ -25,7 +25,7 @@ const data = [
     id: 2,
     project: "gentle critter",
     img: pets,
-    description: "This static React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
+    description: "This SPA React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
     tech: "JSX, CSS, React, Emailjs, Netlify",
     deploy: "https://gentle-critter.netlify.app",
     github: "https://github.com/eonflower/pet-sitting"
@@ -35,7 +35,7 @@ const data = [
     project: "weather app",
     img: weather,
     description: "Mobile app created with React Native that utilizes Weather API. User location saves asynchronously using AsyncStorage, and the background changes by time of day and weather.",
-    tech: "React Native, React, Expo, Tailwindcss, Canva, lodash, Date-fns, react-native-async-storage",
+    tech: "React Native, React, Expo, Tailwindcss, Canva",
     deploy: "",
     github: "https://github.com/eonflower/weather-app-rn"
 }, {
@@ -43,7 +43,7 @@ const data = [
     project: "honey hits",
     img: honey,
     description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
-    tech: "Javascript, CSS, React, Font Awesome, Spotify Web API, lodash, Bootstrap",
+    tech: "Javascript, CSS, React, Font Awesome, Spotify Web API, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
 }, {
@@ -55,15 +55,15 @@ const data = [
     deploy: "https://pining.netlify.app",
     github: "https://github.com/eonflower/sunset-play"
 }, 
-{
-    id: 6,
-    project: "dev trip",
-    img: devTrip,
-    description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
-    tech: "CSS, Javascript, React, Font Awesome, Express, Mongoose, MongoDB",
-    deploy: "",
-    github: "https://github.com/Mattrob10/Travel-Gear"
-}, 
+// {
+//     id: 6,
+//     project: "dev trip",
+//     img: devTrip,
+//     description: "Full-stack React app built for users to compile tech and photo gear in a wishlist. Has integrated search feature and interactive UI design. This was a group project built with Matthew Robinson. Currently in the works for deployment.",
+//     tech: "CSS, Javascript, React, Font Awesome, Express, Mongoose, MongoDB",
+//     deploy: "",
+//     github: "https://github.com/Mattrob10/Travel-Gear"
+// }, 
 // {
 //     id: 7,
 //     project: "trash cats",

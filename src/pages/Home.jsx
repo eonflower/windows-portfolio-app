@@ -18,10 +18,10 @@ export default function Home() {
       {!selfie ? 
         <h2>loading...</h2> :
         <>
-        <img className={`pfp ${toggle ? 'minimize' : ""}`} src={selfie} alt='photo of me' />
+        <img className={`pfp ${toggle ? 'minimize' : ""}`} src={selfie} alt='photo of myself in front of a wooden fence in a red patterned button up' />
       <span className='home-welcome'>
         <h2>
-          hey there, i'm aloe <FontAwesomeIcon icon={faSeedling} />
+          howdy! i'm aloe <FontAwesomeIcon icon={faSeedling} />
         </h2>
         <h3>(they/them)</h3>
         <h4>software developer</h4>

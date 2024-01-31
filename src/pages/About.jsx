@@ -17,7 +17,7 @@ import { BsFiletypeJson } from "react-icons/bs";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about about-container">
       <h2>
         <FontAwesomeIcon icon={faWandMagicSparkles} flip="horizontal" /> a
         little about me <FontAwesomeIcon icon={faWandMagicSparkles} />
@@ -92,6 +92,10 @@ export default function About() {
           <TbBrandReactNative className="tech-icon" />
           React Native
         </a>
+        <a href="https://nextjs.org">
+          <i className="devicon-nextjs-original"></i>
+          Nextjs
+        </a>
         <a target="_blank" href="https://git-scm.com/">
           <FontAwesomeIcon className="tech-icon" icon={faGitAlt} />
           Git
@@ -112,15 +116,10 @@ export default function About() {
           <i className="devicon-express-original tech-icon"></i>
           Express
         </a>
-        <a href="https://canva.com">
-          <i className="devicon-canva-original"></i>
-          Canva
+        <a href="https://adobe.com">
+          <i className="devicon-illustrator-plain"></i>
+          Illustrator
         </a>
-        {/*
-        <a href='https://adobe.com' className='about-tech'>
-        <i className="devicon-illustrator-plain"></i>
-        Illustrator
-        </a> */}
       </span>
 
       <br />
@@ -132,11 +131,12 @@ export default function About() {
       <ul className="hobbies">
         <li>rock climbing</li>
         <li>long distance backpacking</li>
-        <li>painting/block printing</li>
+        <li>block printing</li>
         <li>photography</li>
         <li>music</li>
         <li>traveling</li>
-        <li>van/trailer renovations</li>
+        <li>sewing</li>
+        <li>painting</li>
       </ul>
     </div>
   );
