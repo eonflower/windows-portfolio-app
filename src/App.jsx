@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import NavWindow from './components/NavWindow'
-import Splash from './components/SplashSCreen';
+import Splash from './components/SplashScreen';
 
 
 function App() {
