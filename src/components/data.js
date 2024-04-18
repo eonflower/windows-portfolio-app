@@ -10,19 +10,29 @@ import trash from "../img/trash-cats.png"
 import chum from "../img/green.mp4"
 import weather from "../img/weather.mp4"
 import sunset from "../img/sunset.mp4"
+import genius from "../img/listGeniusVid.mp4"
 
 const data = [
 {
     id: 1,
+    project: "list genius",
+    img: genius,
+    description: "Group project full-stack web app that leverages users' spending habits to offer personalized suggestions for future purchases. ",
+    tech: "Javascript, TailwindCSS, React, Firebase",
+    deploy: "https://tcl-66-smart-shopping-list.web.app/",
+    github: "https://github.com/the-collab-lab/tcl-66-smart-shopping-list"
+}, 
+{
+    id: 2,
     project: "trail chum",
     img: chum,
     description: "Designed for long distance backpackers, this full-stack app allows users to create and personalize trails, efficiently manage trail notes and mileage, and conveniently track their starting and ending points. Built with the MERN stack and featuring user authentication, it provides a user-friendly platform for passionate backpacking enthusiasts.",
-    tech: "Javascript, CSS, React, Express, MongoDB, JWT, Mongoose, Render, Node",
+    tech: "Javascript, CSS, React, Express, MongoDB, JWT, Mongoose, Render",
     deploy: "https://trail-chum.onrender.com",
     github: "https://github.com/eonflower/trail-chum"
 }, 
 {
-    id: 2,
+    id: 3,
     project: "gentle critter",
     img: pets,
     description: "This SPA React app for pet sitting has a clean and responsive design, featuring an integrated contact form for potential customers to connect with me easily. It showcases my skills as a developer and highlights my ability to create professional and user-friendly platforms.",
@@ -31,7 +41,7 @@ const data = [
     github: "https://github.com/eonflower/pet-sitting"
 },
 {
-    id: 3,
+    id: 4,
     project: "weather app",
     img: weather,
     description: "Mobile app created with React Native that utilizes Weather API. User location saves asynchronously using AsyncStorage, and the background changes by time of day and weather.",
@@ -39,19 +49,19 @@ const data = [
     deploy: "",
     github: "https://github.com/eonflower/weather-app-rn"
 }, {
-    id: 4,
+    id: 5,
     project: "honey hits",
     img: honey,
     description: "This is a React app that leverages the OAuth2.0 flow to seamlessly connect to the Spotify Web API, providing users with instant access to their top artists, tracks, and recently liked songs. The app is currently in the development stages. I plan to continue refining its features and functionalities to offer a streamlined and personalized music experience for users.",
-    tech: "Javascript, CSS, React, Font Awesome, Spotify Web API, Bootstrap",
+    tech: "Javascript, CSS, React, Spotify Web API, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
 }, {
-    id: 5,
+    id: 6,
     project: "truth of pine",
     img: sunset,
     description: "This project's focal point was to utilize Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
-    tech: "Javascript, CSS, React, Figma, SVGs, Font Awesome",
+    tech: "Javascript, CSS, React, Figma",
     deploy: "https://pining.netlify.app",
     github: "https://github.com/eonflower/sunset-play"
 }, 
@@ -99,7 +109,7 @@ const data = [
 //     github: "https://github.com/eonflower/badge-creator"
 // }, 
 {
-    id: 8,
+    id: 7,
     project: "my portfolio",
     img: portfolio,
     description: "What could be a more engaging way to demonstrate my expertise in web development than through a dynamic and imaginative rendition of the iconic Windows 98 theme for my portfolio?",
