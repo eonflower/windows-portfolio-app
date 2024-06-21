@@ -1,24 +1,24 @@
 import { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 
-function Clock(){
+function Clock() {
   const [date, setDate] = useState(new Date());
 
-  const formattedDate = format(new Date(date), 'hh:mmaaa');
-  
-  function refreshClock() {
-    setDate(date);
-  }
+  const formattedDate = format(date, 'hh:mmaaa');
+
   useEffect(() => {
-    const timerId = setInterval(refreshClock, 1000);
-    return function cleanup() {
-      clearInterval(timerId);
-    };
+    const timerId = setInterval(() => {
+      setDate(new Date());
+    }, 1000);
+
+    return () => clearInterval(timerId);
   }, []);
+
   return (
     <span>
       {formattedDate}
     </span>
   );
 }
+
 export default Clock;

@@ -1,19 +1,21 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
-import Draggable from "react-draggable";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import { UserContext } from "../context/UserProvider";
+import { Rnd } from "react-rnd";
+
+
 
 export default function NavWindow() {
-    const { toggle, minimize, maximize } = useContext(UserContext);
+    const { toggle, minimize, maximize } = useContext(UserContext); // TODO: Add minimize and maximize functions
     const [title, setTitle] = useState("welcome.html");
-    const location = useLocation();
+    const { pathname } = useLocation();
 
     useEffect(() => {
-        switch (location.pathname) {
+        switch (pathname) {
         case "/":
             setTitle("welcome.html");
             break;
@@ -30,10 +32,14 @@ export default function NavWindow() {
             setTitle("welcome.html");
             break;
         }
-    }, [location, setTitle]);
+    }, [pathname]);
+
 
     return (
-        // <Draggable>
+        <Rnd
+        dragHandleClassName="window-toolbar"
+        size={{width: '100%'}}
+        >
         <div className={`pop-up-window ${toggle ? "minimize" : ""}`}>
         <div className="window-toolbar">
             <div className="window-title">{title}</div>
@@ -84,6 +90,6 @@ export default function NavWindow() {
             </Link>
         </div>
         </div>
-        // </Draggable>
+        </Rnd>
     );
 }

@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useLayoutEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer'
 import NavWindow from './components/NavWindow'
@@ -6,6 +7,7 @@ import Splash from './components/SplashScreen';
 
 
 function App() {
+  const { pathname } = useLocation();
   const [showSplashscreen, setShowSplashscreen] = useState(
     () => !JSON.parse(localStorage.getItem("showedSplashscreen"))
   );
@@ -28,13 +30,23 @@ function App() {
     }
   }, []);
 
+  useLayoutEffect(() => {
+    // Ensure that the scroll resets for the .window-content class
+    const windowContent = document.querySelector('.window-content');
+    if (windowContent) {
+      windowContent.scrollTo(0, 0);
+    } else {
+      window.scrollTo(0, 0); // fallback for other elements
+    }
+  }, [pathname]);
+
   return (
     <div className="app">
       {showSplashscreen ? <Splash />
       :
       <>
       <NavWindow />
-        <Footer /></>}
+      <Footer /></>}
     </div>
   )
 }
