@@ -601,6 +601,7 @@ a:active { text-decoration: none; }
 }
 
 @media screen and (max-width: 650px){
+  html {overflow: visible;}
   .home-welcome > h2 {font-size: 1.3rem;}
   .home-welcome > h3 {font-size: .95rem;}
   .home-welcome > h4 {font-size: .9rem;}
@@ -617,9 +618,10 @@ a:active { text-decoration: none; }
   .home-welcome > h3 {font-size: .7rem;}
   .home-welcome > h4 {font-size: .8rem;}
   .home-wrapper {gap: 0;}
-  .window-content {height: 60vh;}
+  .window-content {height: 65vh;}
   .link-tab {font-size: .8rem;}
   ::-webkit-scrollbar {width: 12px;}
+  .footer { padding-right: 12px;}
   .footer-right > .footer-rights {display: none;}
   .window-action {font-size: .5rem; width: 50px}
   
