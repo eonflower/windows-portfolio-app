@@ -223,7 +223,7 @@ li.programs:hover .programs-container {
   border: 2px solid var(--border-color);
   border-top-color: var(--border-accent);
   border-left-color: var(--border-accent);
-  width: 150px;
+  width: 130px;
   z-index: 1000;
 
   ul {
