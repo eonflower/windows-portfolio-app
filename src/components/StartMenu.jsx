@@ -56,6 +56,7 @@ const StartMenu = () => {
       <Rnd
         dragHandleClassName="window-toolbar"
         size={{width: '100%'}}
+        enableResizing={true}
         >
       <NewWindowModal isOpen={openModal.paint} onClose={() => closeProgramModal('paint')} title="JSpaint.exe">
         <iframe

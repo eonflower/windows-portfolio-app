@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Rnd } from "react-rnd";
 
 
 const Modal = ({ isOpen, onClose, children, title }) => {
