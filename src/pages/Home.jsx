@@ -23,7 +23,6 @@ export default function Home() {
         <h2>
           howdy! i'm aloe <FontAwesomeIcon icon={faSeedling} />
         </h2>
-        <h3>(they/them)</h3>
         <h4>software developer</h4>
         <p>artist • climber • backpacker</p>
         <h2 className='home-icons'>

@@ -13,24 +13,24 @@ import sunset from "../img/sunset.mp4"
 import genius from "../img/listGeniusVid.mp4"
 
 const data = [
-{
-    id: 1,
-    project: "list genius",
-    img: genius,
-    description: "Group project full-stack web app that leverages users' spending habits to offer personalized suggestions for future purchases. ",
-    tech: "Javascript, TailwindCSS, React, Firebase",
-    deploy: "https://tcl-66-smart-shopping-list.web.app/",
-    github: "https://github.com/the-collab-lab/tcl-66-smart-shopping-list"
-}, 
-{
-    id: 2,
-    project: "trail chum",
-    img: chum,
-    description: "Designed for long distance backpackers, this full-stack app allows users to create and personalize trails, efficiently manage trail notes and mileage, and conveniently track their starting and ending points. Built with the MERN stack and featuring user authentication, it provides a user-friendly platform for passionate backpacking enthusiasts.",
-    tech: "Javascript, CSS, React, Express, MongoDB, JWT, Mongoose, Render",
-    deploy: "https://trail-chum.onrender.com",
-    github: "https://github.com/eonflower/trail-chum"
-}, 
+    {
+        id: 1,
+        project: "List Genius",
+        img: genius,
+        description: "Led development of a full-stack smart shopping application that learns from users' purchasing patterns to provide intelligent suggestions. Implemented core prediction algorithm and Firebase database integration, while establishing WCAG-compliant UI components. Drove project success through agile methodologies including bi-weekly sprints and code reviews.",
+        tech: "Javascript, TailwindCSS, React, Firebase, Git/GitHub",
+        deploy: "https://tcl-66-smart-shopping-list.web.app/",
+        github: "https://github.com/the-collab-lab/tcl-66-smart-shopping-list"
+    },
+    {
+        id: 2,
+        project: "Trail Chum",
+        img: chum,
+        description: "Developed and currently modernizing a full-stack application for long-distance backpackers, migrating from MERN stack to Firebase for improved scalability. Implemented secure authentication using Google OAuth and email verification, with optimized data structures for fast load times. Features include personalized trail creation, mileage tracking, and trail note management.",
+        tech: "Javascript, React, Firebase, Google OAuth, TailwindCSS",
+        deploy: "https://trail-chum.onrender.com",
+        github: "https://github.com/eonflower/trail-chum"
+    }, 
 {
     id: 3,
     project: "gentle critter",
@@ -42,10 +42,10 @@ const data = [
 },
 {
     id: 4,
-    project: "weather app",
+    project: "Weather App",
     img: weather,
-    description: "Mobile app created with React Native that utilizes Weather API. User location saves asynchronously using AsyncStorage, and the background changes by time of day and weather.",
-    tech: "React Native, React, Expo, Tailwindcss, Canva",
+    description: "Built a mobile-first weather application using React Native that features persistent location storage and dynamic UI. Implemented AsyncStorage for seamless user experience across sessions, and created responsive design elements that adapt to both time of day and current weather conditions.",
+    tech: "React Native, React, Expo, TailwindCSS, AsyncStorage, Weather API",
     deploy: "",
     github: "https://github.com/eonflower/weather-app-rn"
 }, {
@@ -56,15 +56,16 @@ const data = [
     tech: "Javascript, CSS, React, Spotify Web API, Bootstrap",
     deploy: "",
     github: "https://github.com/eonflower/honey-hits"
-}, {
-    id: 6,
-    project: "truth of pine",
-    img: sunset,
-    description: "This project's focal point was to utilize Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
-    tech: "Javascript, CSS, React, Figma",
-    deploy: "https://pining.netlify.app",
-    github: "https://github.com/eonflower/sunset-play"
 }, 
+// {
+//     id: 6,
+//     project: "truth of pine",
+//     img: sunset,
+//     description: "This project's focal point was to utilize Figma to create a dynamic background that could be exported as an SVG and used for a parallex scroll effect.",
+//     tech: "Javascript, CSS, React, Figma",
+//     deploy: "https://pining.netlify.app",
+//     github: "https://github.com/eonflower/sunset-play"
+// }, 
 // {
 //     id: 6,
 //     project: "dev trip",
